@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/form.css">
+    <script src="/toggle_password.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="form signup">
+            <header>Sign Up</header>
+
+            <form action="/signup" method="post">
+                <div class="field input">
+                    <label for="">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                </div>
+
+                <div class="field input">
+                    <label for="">Email Address</label>
+                    <input type="text" id="email" name="email" placeholder="Enter Your Email">
+                </div>
+
+                <div class="field input">
+                    <label for="">Phone Number</label>
+                    <input type="text" id="num" name="num" placeholder="Enter Your Phone Number">
+                </div>
+
+                <div class="field input">
+                    <label for="">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="Enter New Password">
+                    <i class="fa fa-eye"></i>
+                </div>
+
+                <div class="field button">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+            
+            <div class="link">
+                Already Have an Account? <a href="/">Login Now</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
